@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Web Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>MyWebpage</h1>
+      <nav>
+        <ul>
+          <li><a href="#image">Image</a></li>
+          <li><a href="#table">Table</a></li>
+          <li><a href="#form"> Form</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="image-section" id="image">
+        <h2>Responsive Images</h2>
+        <p>Responsive images scale nicely to fit any browser size.</p>
+        <img
+          src="https://img.freepik.com/premium-photo/abstract-colorful-wave-smooth-background_675204-339.jpg"
+          alt="Sample Image"
+        />
+      </section>
+      <br />
+      <section class="table-section" id="table">
+        <h2>Responsive Table</h2>
+        <p>
+          In a responsive design, tables adapt to different screen sizes for
+          optimal readability.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Header 1</th>
+              <th>Header 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Row 1, Cell 1</td>
+              <td>Row 1, Cell 2</td>
+            </tr>
+            <tr>
+              <td>Row 2, Cell 1</td>
+              <td>Row 2, Cell 2</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <br />
+      <br />
+      <br />
+      <br />
+      <section class="form-section" id="form">
+        <h2>Responsive Form</h2>
+        <p>
+          A responsive form adjusts its layout to ensure easy interaction on
+          various screen sizes.
+        </p>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" /><br /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="4" cols="50"></textarea
+          ><br /><br />
+
+          <input type="submit" value="SUBMIT" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
