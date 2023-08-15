@@ -1,116 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f0f0f0;
-}
-h1 {
-  color: white !important;
-}
-.header {
-  background-color: #4285f4;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 10px;
-  text-align: center;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-}
-nav li {
-  margin: 0 15px;
-}
-
-nav li:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-main {
-  max-width: 80%;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #ffffff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1,
-h2 {
-  color: #333333;
-}
-
-.image-section img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 20px auto;
-}
-
-.table-section table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-}
-
-th,
-td {
-  border: 1px solid #dddddd;
-  padding: 8px;
-  text-align: left;
-}
-
-.form-section form {
-  margin-top: 20px;
-}
-
-input,
-textarea {
-  width: 95%;
-  font-size: 16px;
-  border-radius: 5px;
-  outline: none;
-  border: 1px solid lightgrey;
-  padding: 10px;
-}
-
-input[type="submit"] {
-  background-color: #4285f4;
-  color: #ffffff;
-  border: none;
-  width: 97%;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #3367d6;
-}
-
-/* Media Query for smaller screens */
 @media (max-width: 768px) {
   .header {
     justify-content: space-between;
   }
+
   nav {
     width: 50%;
   }
+
   nav ul {
     justify-content: space-between;
     align-items: center;
@@ -119,38 +15,48 @@ input[type="submit"]:hover {
   nav li {
     margin: 5px 0;
   }
+
   input,
   textarea {
     width: 90%;
   }
+
   main {
     padding: 10px;
     max-width: 90%;
   }
+
   h1 {
     font-size: 25px;
   }
+
   h2 {
     font-size: 20px;
   }
+
   p {
     font-size: 14px;
   }
 }
+
 @media (max-width: 368px) {
   nav {
     width: 50%;
   }
-  h1{
+
+  h1 {
     font-size: 20px;
   }
-  nav ul{
+
+  nav ul {
     justify-content: space-between;
   }
-   a{
+
+  a {
     font-size: 14px;
-   }
-  p{
+  }
+
+  p {
     font-size: 11px;
   }
 }
